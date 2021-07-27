@@ -1,0 +1,1757 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wrapOne {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.logo {
+    flex:100%;
+}
+
+#logo {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.lgo {
+    padding-top: 50px;
+    flex:70%;
+    padding-bottom: 100px;
+}
+
+.lgo img {
+    margin-left: 5%;
+    width: 15%;
+}
+
+.nav {
+    flex:30%;
+}
+
+#nav {
+    padding-top: 70px;
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#nav nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+#nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color:hsl(238, 22%, 44%);
+}
+
+.ctaOne {
+    flex:50%;
+}
+
+#ctaOne {
+    width:85%;
+    margin:0 auto;
+}
+
+#ctaOne h1 {
+    padding-top: 60px;
+    font-size: 2.6em;
+    width: 80%;
+    color:hsl(243, 87%, 12%);
+}
+
+#ctaOne p {
+    padding-top: 30px;
+    width: 80%;
+    font-size: 1.4em;
+    color:hsl(238, 22%, 44%);
+    padding-bottom: 30px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+#ctaOne input[type="email"] {
+  padding: 10px 100px 10px 10px;
+  font-size: 1.1em;
+  border:1px solid hsl(243, 87%, 12%);
+  color:hsl(238, 22%, 44%);
+  border-radius: 5px;
+}
+
+
+#ctaOne input[type="submit"] {
+    margin-left: 3%;
+    padding: 10px 60px 10px 60px;
+    font-size: 1.1em;
+    background-color: hsl(224, 93%, 58%);
+    border:none;
+    color:#fff;
+}
+
+#ctaOne input[type="submit"]:hover {
+    background-color:hsl(224, 93%, 65%);
+    transition: 0.3s ease-in-out;
+}
+
+.drawOne {
+    flex:50%;
+}
+
+#drawOne {
+    width:90%;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+#drawOne img {
+    width: 100%;
+}
+
+/*-----inicia wrapTwo------*/
+
+.wrapTwo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:200px;
+    width: 100%;
+    background-image: url("images/bg-curve-desktop.svg");
+    background-size:cover;
+    background-position:center bottom;
+    background-repeat: no-repeat;
+}
+
+.ctaTwo {
+    flex:50%;
+}
+
+#ctaTwo {
+    width: 85%;
+    margin:0 auto;
+}
+
+#ctaTwo h2 {
+  padding-top: 200px;
+  font-size:2.5em;
+  width: 90%;
+  color:hsl(243, 87%, 12%);
+}
+
+#never {
+    padding-top: 30px;
+    width: 85%;
+    font-size: 1.3em;
+    color:hsl(238, 22%, 44%);
+    padding-bottom: 30px;  
+}
+
+#securely {
+    padding-top: 0px;
+    width: 85%;
+    font-size: 1.3em;
+    color:hsl(238, 22%, 44%);
+    padding-bottom: 30px;  
+}
+
+.ctaTwo a {
+    color:hsl(170, 45%, 43%);
+    font-size: 1.3em;
+    text-decoration:none ;
+    padding-bottom: 10px;
+    border-bottom:2px solid hsl(170, 45%, 43%) ;
+}
+
+.ctaTwo a:hover {
+    color:hsl(170, 45%, 60%);
+}
+
+
+.drawTwo {
+    flex:50%;
+}
+
+#drawTwo {
+    padding-top: 200px;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 200px;
+}
+
+#drawTwo img{
+    width: 100%;
+}
+
+.card {
+    margin-top: 70px;
+    width: 70%;
+    margin-bottom: 100px;
+    background-color:#fff ;
+}
+
+#card {
+    width: 90%;
+    margin:0 auto;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comas {
+    padding-top: 20px;
+    flex: 100%;
+}
+
+.testi {
+    flex: 100%;
+}
+
+.testi p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color:hsl(238, 22%, 44%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.image {
+    flex:100%;
+}
+
+#image {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img {
+    flex:30%;
+    padding-bottom: 20px;
+}
+
+#img {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#img img {
+    width: 100%;
+}
+
+
+.name {
+    padding-top: 15px;
+    flex:70%;
+    padding-left: 2%;
+}
+
+.name strong {
+    width: 98%;
+    margin-left: 2%;
+}
+
+.name p {
+    width: 98%;
+    margin-left: 2%;
+    font-size:0.8em;  
+    padding-bottom: 20px;
+}
+
+/*---inicia wrapThree------*/
+
+.wrapThree {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(238, 22%, 44%);
+}
+
+.ctaThree {
+    flex:50%;
+  
+}
+
+#ctaThree {
+    width: 80%;
+    margin:0 auto; 
+}
+
+#ctaThree h2 {
+    padding-top: 80px;
+    font-size:1.8em;
+    width: 90%;
+    color:#fff;
+}
+
+#ctaThree p {
+    font-size: 1.2em;
+    width: 80%;
+    color:#fff;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+
+.form {
+    flex:50%;
+}
+
+#form {
+    width:80%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+#form input[type="email"] {
+    padding: 10px 200px 10px 10px;
+    font-size: 1.1em;
+    border:none;
+    color:hsl(238, 22%, 44%);
+}
+
+#form input[type="submit"] {
+    margin-top: 3%;
+    padding: 10px 50px 10px 50px;
+    font-size: 1.1em;
+    background-color: hsl(224, 93%, 58%);
+    border:none;
+    color:#fff;
+}
+
+#form input[type="submit"]:hover {
+    background-color: hsl(224, 93%, 70%)
+}
+
+/*-----inica wrapFour-----*/
+
+.wrapFour {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:hsl(243, 87%, 12%);
+}
+
+.lggo {
+    flex:100%;
+}
+
+#lggo {
+    padding-top: 80px;
+    padding-left: 80px;
+    width: 40%;
+    padding-bottom: 30px;
+}
+
+
+#phone {
+    flex:25%;
+}
+
+.containerPhone {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.phone {
+    flex:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.svgPhone {
+    flex:20%;
+}
+
+.pPhone {
+    flex:80%;
+}
+
+.phone p {
+    color:white;
+    font-weight: 400;
+}
+
+
+#about {
+    flex:25%;
+}
+
+.about {
+    width: 80%;
+    margin:0 auto;
+}
+
+.about p {
+    width: 20%;
+    color:#fff;
+    font-weight: 400;
+    font-size:1.2em ;
+    padding-bottom: 100px;
+    line-height: 38px;
+}
+
+#contact {
+    flex:25%;
+}
+
+.contact {
+    width: 80%;
+    margin:0 auto;
+}
+
+.contact p {
+    width: 20%;
+    color:#fff;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 38px;
+}
+
+#redes {
+    flex:25%;
+}
+
+.redes {
+    display: flex;
+    width: 70%;
+    margin:0 auto;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+
+#facebook svg:hover, #twitter svg:hover, #instagram svg:hover {
+    cursor: pointer;
+}
+
+
+/*-----inicia footer -----*/
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color:hsl(243, 87%, 12%)
+}
+
+@media screen  and (max-width:1500px) and (min-width:1400px) {
+    #ctaOne {
+        width:85%;
+        margin:0 auto;
+    }
+
+    #ctaOne h1 {
+        font-size: 2.2em;
+        width: 95%;
+    }
+    
+    #ctaOne p {
+        width: 90%;
+        font-size: 1.2em;
+    }
+
+    .card {
+        margin-top: 70px;
+        width: 70%;
+       background-color: #fff;
+    }
+
+    #ctaTwo h2 {
+        padding-top: 200px;
+        font-size:2em;
+        width: 100%;
+      }
+
+      #never {
+        width: 95%;
+        font-size: 1em;
+    }
+    
+    #securely {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    #ctaThree p {
+        font-size: 1em;
+        width: 95%;
+    }
+
+    #drawTwo {
+        padding-top: 200px;
+        width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+        padding-bottom: 200px;
+    }
+
+    .pho p {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .ema p {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .about p {
+        width: 27%;
+        font-weight: 400;
+        font-size:1em ;
+        line-height: 2;
+    }
+
+    .contact p {
+        width: 35%;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 2;
+    }
+}
+
+@media screen  and (max-width:1399px) and (min-width:1300px) {
+    #ctaOne {
+        width:90%;
+        margin:0 auto;
+    }
+
+    #ctaOne h1 {
+        font-size: 2.2em;
+        width: 95%;
+    }
+    
+    #ctaOne p {
+        width: 90%;
+        font-size: 1.2em;
+    }
+
+    #ctaOne form {
+        width: 80%;
+        display: flex;
+    }
+
+    #ctaOne input[type="email"] {
+       flex: 70%;
+    }
+
+    #ctaOne input[type="submit"] {
+        flex:30%
+    }
+
+    .card {
+        margin-top: 70px;
+        width: 70%;
+       background-color: #fff;
+    }
+
+    #ctaTwo h2 {
+        padding-top: 200px;
+        font-size:2em;
+        width: 100%;
+      }
+
+      #never {
+        width: 95%;
+        font-size: 1em;
+    }
+    
+    #securely {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    #ctaThree p {
+        font-size: 1em;
+        width: 95%;
+    }
+
+    #drawTwo {
+        padding-top: 200px;
+        width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+        padding-bottom: 200px;
+    }
+
+    .pho p {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    .ema p {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    .about p {
+        width: 27%;
+        font-weight: 400;
+        font-size:0.9em ;
+        line-height: 2;
+    }
+
+    .contact p {
+        width: 35%;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 2;
+    }
+}
+
+@media screen  and (max-width:1299px) and (min-width:1200px) {
+
+    .lgo {
+        flex: 60%;
+    }
+
+    .lgo img {
+        width: 20%;
+    }
+
+    .nav {
+        flex:40%;
+    }
+
+    #ctaOne {
+        width: 90%;
+    }
+
+    #ctaOne h1 {
+        padding-top: 40px;
+        width: 100%;
+        font-size: 2.2em;
+    }
+
+    #ctaOne p {
+        width: 96%;
+        font-size: 1.2em;
+    }
+    
+    #ctaOne form {
+        width: 80%;
+        display: flex;
+    }
+
+    #ctaOne input[type="email"] {
+       flex: 70%;
+    }
+
+    #ctaOne input[type="submit"] {
+        flex:30%
+    }
+
+    /*---wrapTwo---*/
+
+    .wrapTwo {
+        margin-top: 160px;
+    }
+
+    #ctaTwo {
+        width: 90%;
+    }
+
+    #ctaTwo h2 {
+        font-size: 2.2em;
+        width: 90%;
+    }
+
+    #never, #securely {
+       font-size: 1.2em;
+    }
+
+   .card {
+       width: 80%;
+   }
+
+   .comas {
+       margin-left: 6%;
+   }
+
+   .testi p {
+       width: 90%;
+       margin:0 auto;
+   }
+
+   .name {
+       padding-top: 10px;
+   }
+
+   .name p {
+       width: 100%;
+   }
+
+   /*wrapThree*/
+
+   #ctaThree p {
+    font-size: 1em;
+    width: 80%;
+}
+
+    /*----footer----*/
+    #lggo img {
+        width: 100%;
+    }
+
+    .phone {
+        width: 80%;
+    }
+
+    .pho p {
+      font-size: 1em;
+      width: 100%;
+      margin-top: 0px;
+    }
+}
+
+@media screen  and (max-width:1199px) and (min-width:1100px) {
+
+    .lgo {
+        flex: 60%;
+    }
+
+    .lgo img {
+        width: 20%;
+    }
+
+    .nav {
+        flex:40%;
+    }
+
+    #ctaOne {
+        width: 90%;
+    }
+
+    #ctaOne h1 {
+        padding-top: 40px;
+        width: 100%;
+        font-size: 2.2em;
+    }
+
+    #ctaOne p {
+        width: 96%;
+        font-size: 1.2em;
+    }
+    
+    #ctaOne form {
+        width: 80%;
+        display: flex;
+    }
+
+    #ctaOne input[type="email"] {
+       flex: 70%;
+    }
+
+    #ctaOne input[type="submit"] {
+        flex:30%
+    }
+
+    #drawOne {
+        width: 80%;
+    }
+
+    /*---wrapTwo---*/
+
+    .wrapTwo {
+        margin-top: 160px;
+    }
+
+    #ctaTwo {
+        width: 90%;
+    }
+
+    #ctaTwo h2 {
+        font-size: 2.2em;
+        width: 90%;
+    }
+
+    #never, #securely {
+       font-size: 1.2em;
+    }
+
+   .card {
+       width: 80%;
+   }
+
+   .comas {
+       margin-left: 6%;
+   }
+
+   .testi p {
+       width: 90%;
+       margin:0 auto;
+   }
+
+   .name {
+       padding-top: 10px;
+   }
+
+   .name p {
+       width: 100%;
+   }
+
+   /*wrapThree*/
+
+   #ctaThree p {
+    font-size: 1em;
+    width: 80%;
+}
+
+    /*----footer----*/
+    #lggo img {
+        width: 100%;
+    }
+
+    .phone {
+        width: 90%;
+    }
+
+    .phone p {
+      font-size: 0.8em;
+      width: 100%;
+      margin-top: 0px;
+    }
+
+    .about p {
+        font-size: 1em;
+    }
+
+    .contact p {
+        font-size:1em;
+    }
+}
+
+@media screen  and (max-width:1099px) and (min-width:1000px) {
+
+    .lgo {
+        flex: 60%;
+    }
+
+    .lgo img {
+        width: 20%;
+    }
+
+    .nav {
+        flex:40%;
+    }
+
+    .ctaOne {
+        order: 2;
+    }
+
+    #ctaOne {
+        width: 80%;
+    }
+
+    #ctaOne h1 {
+        padding-top: 70px;
+        width: 100%;
+        font-size: 2.2em;
+    }
+
+    #ctaOne p {
+        width: 96%;
+        font-size: 1.2em;
+    }
+    
+    #ctaOne form {
+        width: 80%;
+        display: flex;
+    }
+
+    #ctaOne input[type="email"] {
+       flex: 70%;
+    }
+
+    #ctaOne input[type="submit"] {
+        flex:30%
+    }
+
+    #drawOne {
+        width:80%;
+    }
+
+    /*----------wrapTwo-------------*/
+
+    .wrapTwo {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:100px;
+    }
+
+    .ctaTwo {
+        flex:100%;
+    }
+
+    #ctaTwo h2 {
+        padding-top:40px;
+        font-size:2em;
+        width:90%;
+    }
+
+    #never, #securely {
+        font-size:1.2em;
+        width: 90%;
+    }
+
+    .drawTwo {
+        flex:100%;
+        order:-1;
+    }
+
+    .ctaTwo  a {
+        margin-left: 0%;
+    }
+
+    #drawTwo {
+        width: 80%;
+        padding-top: 80px;
+        padding-bottom:50px
+    }
+
+    .card {   
+        width: 50%;
+        margin-left: 3%;
+        margin-bottom: 7%;
+    }
+    #card {
+        width: 95%;
+    }
+
+    .testi p {
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .name {
+        padding-top:6px;
+    }
+
+    .name p {
+        width: 100%;
+        font-size:0.6em;
+    }
+
+   /*wrapThree*/
+
+   #ctaThree p {
+    font-size: 1em;
+    width: 80%;
+}
+
+    /*----footer----*/
+    #lggo img {
+        width: 100%;
+    }
+
+    .phone {
+        width: 90%;
+    }
+
+    .phone p {
+      font-size: 0.8em;
+      width: 100%;
+      margin-top: 0px;
+    }
+
+    .about p {
+        font-size: 1em;
+    }
+
+    .contact p {
+        font-size:1em;
+    }
+}
+
+@media screen  and (max-width:999px) and (min-width:900px) {
+    html,body {
+        margin:0px;
+        padding:0px;
+        overflow-x: hidden;
+    }
+
+    .lgo {
+        flex: 60%;
+    }
+
+    .lgo img {
+        width: 20%;
+    }
+
+    .nav {
+        flex:40%;
+    }
+
+    .ctaOne {
+        order: 2;
+    }
+
+    #ctaOne {
+        width: 80%;
+    }
+
+    #ctaOne h1 {
+        padding-top: 70px;
+        width: 100%;
+        font-size: 2.2em;
+    }
+
+    #ctaOne p {
+        width: 96%;
+        font-size: 1.2em;
+    }
+    
+    #ctaOne form {
+        width: 80%;
+        display: flex;
+    }
+
+    #ctaOne input[type="email"] {
+       flex: 70%;
+    }
+
+    #ctaOne input[type="submit"] {
+        flex:30%
+    }
+
+    #drawOne {
+        width:80%;
+    }
+
+    /*----------wrapTwo-------------*/
+
+    .wrapTwo {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:100px;
+    }
+
+    .ctaTwo {
+        flex:100%;
+    }
+
+    #ctaTwo h2 {
+        padding-top:40px;
+        font-size:2em;
+        width:90%;
+    }
+
+    #never, #securely {
+        font-size:1.2em;
+        width: 90%;
+    }
+
+    .drawTwo {
+        flex:100%;
+        order:-1;
+    }
+
+    .ctaTwo  a {
+        margin-left: 0%;
+    }
+
+    #drawTwo {
+        width: 80%;
+        padding-top: 80px;
+        padding-bottom:50px
+    }
+
+    .card {   
+        width: 50%;
+        margin-left: 3%;
+        margin-bottom: 7%;
+    }
+    #card {
+        width: 95%;
+    }
+
+    .testi p {
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .name {
+        padding-top:6px;
+    }
+
+    .name p {
+        width: 100%;
+        font-size:0.6em;
+    }
+
+   /*wrapThree*/
+
+   #ctaThree p {
+    font-size: 0.9em;
+    width: 90%;
+}
+
+    #form {
+        width: 100%;
+    }
+
+    /*----footer----*/
+    #lggo img {
+        width: 100%;
+    }
+
+    .phone {
+        width: 90%;
+    }
+
+    .phone p {
+      font-size: 0.8em;
+      width: 100%;
+      margin-top: 0px;
+    }
+
+    .about p {
+        font-size: 1em;
+    }
+
+    .contact p {
+        font-size:1em;
+    }
+}
+
+@media screen  and (max-width:899px) and (min-width:800px) {
+    html,body {
+        margin:0px;
+        padding:0px;
+        overflow-x: hidden;
+    }
+
+
+    .lgo {
+        flex: 50%;
+    }
+
+    .lgo img {
+        width: 30%;
+    }
+
+    .nav {
+        flex:50%;
+    }
+
+    .ctaOne {
+        order: 2;
+    }
+
+    #ctaOne {
+        width: 80%;
+    }
+
+    #ctaOne h1 {
+        padding-top: 70px;
+        width: 100%;
+        font-size: 2.2em;
+    }
+
+    #ctaOne p {
+        width: 96%;
+        font-size: 1.2em;
+    }
+    
+    #ctaOne form {
+        width: 80%;
+        display: flex;
+    }
+
+    #ctaOne input[type="email"] {
+       flex: 70%;
+    }
+
+    #ctaOne input[type="submit"] {
+        flex:30%
+    }
+
+    #drawOne {
+        width:80%;
+    }
+
+    /*----------wrapTwo-------------*/
+
+    .wrapTwo {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:100px;
+    }
+
+    .ctaTwo {
+        flex:100%;
+    }
+
+    #ctaTwo h2 {
+        padding-top:40px;
+        font-size:2em;
+        width:90%;
+    }
+
+    #never, #securely {
+        font-size:1.2em;
+        width: 90%;
+    }
+
+    .drawTwo {
+        flex:100%;
+        order:-1;
+    }
+
+    .ctaTwo  a {
+        margin-left: 0%;
+    }
+
+    #drawTwo {
+        width: 80%;
+        padding-top: 80px;
+        padding-bottom:50px
+    }
+
+    .card {   
+        width: 50%;
+        margin-left: 3%;
+        margin-bottom: 7%;
+    }
+    #card {
+        width: 95%;
+    }
+
+    .testi p {
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .name {
+        padding-top:6px;
+    }
+
+    .name p {
+        width: 100%;
+        font-size:0.6em;
+    }
+
+   /*wrapThree*/
+
+   .ctaThree {
+       flex:100%;
+   }
+
+   .form {
+       flex:100%;
+   }
+
+   #ctaThree p {
+    font-size: 0.9em;
+    width: 90%;
+    padding-bottom: 60px;
+}
+
+    #form {
+        width: 80%;
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+
+    /*----footer----*/
+    #lggo {
+        width: 30%;
+        padding-left: 40px;
+    }
+
+    #lggo img {
+        width: 100%;
+    }
+
+    .containerPhone {
+        width: 90%;
+    }
+
+    .phone {
+        width: 90%;
+    }
+
+    .phone p {
+      font-size: 0.8em;
+      width: 100%;
+      margin-top: 0px;
+    }
+
+    .about p {
+        font-size: 1em;
+    }
+
+    .contact p {
+        font-size:1em;
+    }
+
+    .redes {
+        width: 90%;
+    }
+
+    .redes svg {
+        width: 40px;
+    }
+}
+
+@media screen  and (max-width:799px) and (min-width:700px) {
+    html,body {
+        margin:0px;
+        padding:0px;
+        overflow-x: hidden;
+    }
+
+
+    .lgo {
+        flex: 50%;
+    }
+
+    .lgo img {
+        width: 30%;
+    }
+
+    .nav {
+        flex:50%;
+    }
+
+    .ctaOne {
+        order: 2;
+    }
+
+    #ctaOne {
+        width: 80%;
+    }
+
+    #ctaOne h1 {
+        padding-top: 70px;
+        width: 100%;
+        font-size: 2.2em;
+    }
+
+    #ctaOne p {
+        width: 96%;
+        font-size: 1.2em;
+    }
+    
+    #ctaOne form {
+        width: 80%;
+        display: flex;
+    }
+
+    #ctaOne input[type="email"] {
+       flex: 70%;
+    }
+
+    #ctaOne input[type="submit"] {
+        flex:30%
+    }
+
+    #drawOne {
+        width:80%;
+    }
+
+    /*----------wrapTwo-------------*/
+
+    .wrapTwo {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:100px;
+    }
+
+    .ctaTwo {
+        flex:100%;
+    }
+
+    #ctaTwo h2 {
+        padding-top:40px;
+        font-size:2em;
+        width:90%;
+    }
+
+    #never, #securely {
+        font-size:1.2em;
+        width: 90%;
+    }
+
+    .drawTwo {
+        flex:100%;
+        order:-1;
+    }
+
+    .ctaTwo  a {
+        margin-left: 0%;
+    }
+
+    #drawTwo {
+        width: 80%;
+        padding-top: 80px;
+        padding-bottom:50px
+    }
+
+    .card {   
+        width: 60%;
+        margin-left: 3%;
+        margin-bottom: 7%;
+    }
+    #card {
+        width: 95%;
+    }
+
+    .testi p {
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .name {
+        padding-top:6px;
+    }
+
+    .name p {
+        width: 100%;
+        font-size:0.6em;
+    }
+
+   /*wrapThree*/
+
+   .ctaThree {
+       flex:100%;
+   }
+
+   .form {
+       flex:100%;
+   }
+
+   #ctaThree p {
+    font-size: 0.9em;
+    width: 90%;
+    padding-bottom: 60px;
+}
+
+    #form {
+        width: 80%;
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+
+    /*-----inicia wrapFourth-------*/
+
+    #lggo {
+        padding-left: 0px;
+        margin: 0 auto;
+        width: 30%;
+    }
+
+    #phone {
+        flex:100%;
+        text-align: cente;
+    }
+
+    .containerPhone {
+        width: 50%;
+    }
+
+    #about {
+      flex: 100%;
+    }
+
+    .about {
+        width: 35%;
+        text-align: center;
+    }
+
+    .about p {
+        padding-top: 40px;
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #contact {
+        flex:100%;
+    }
+
+    .contact {
+        width: 35%;
+        text-align: center;
+    }
+
+    .contact p {
+        width: 40%;
+        margin:0 auto;
+        padding-top: 20px;
+        padding-bottom:40px;
+    }
+
+    #redes {
+        flex:100%;
+    }
+
+    .redes {
+        width: 50%;
+      margin-bottom: 70px;
+    }
+
+    .redes svg {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    html,body {
+        margin:0px;
+        padding:0px;
+        width:100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    /*logo*/
+    .lgo {
+        padding-top: 50px;
+        flex:40%;
+        padding-bottom: 60px;
+    }
+
+    .lgo img {
+        margin-left: 7%;
+        width: 70%;
+    }
+
+    .nav {
+        flex:60%;
+    }
+
+    #nav {
+        width: 100%;
+        padding-top:55px ;
+        padding-bottom: 10px;
+    }
+
+    #nav a {
+        font-size: 1.1em;
+    }
+
+    .ctaOne {
+        order: 2;
+    }
+
+    #drawOne {
+        padding-top: 60px;
+    }
+
+    #ctaOne {
+        text-align: center;
+        width: 94%;
+    }
+
+    #ctaOne h1 {
+        width: 96%;
+        font-size: 1.7em;
+    }
+
+    #ctaOne p {
+        padding-top: 30px;
+        width: 88%;
+        font-size: 1em;
+        padding-bottom: 30px;
+        margin:0 auto;
+    }
+    
+    #ctaOne input[type="email"] {
+        margin-bottom: 5%;
+    }
+
+    /*----------wrapTwo-------------*/
+
+    .wrapTwo {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:00px;
+    }
+
+    .ctaTwo {
+        flex:100%;
+    }
+
+    #ctaTwo h2 {
+        padding-top:40px;
+        margin:0 auto;
+        font-size:1em;
+        width:98%;
+    }
+
+    #never, #securely {
+        font-size:1em;
+        width: 96%;
+    }
+
+    .drawTwo {
+        flex:100%;
+        order:-1;
+    }
+
+    .ctaTwo  a {
+        margin-left: 15%;
+    }
+
+    #drawTwo {
+        padding-top: 80px;
+        padding-bottom:50px
+    }
+
+    .card {   
+        width: 95%;
+        margin-left: 3%;
+        margin-bottom: 7%;
+    }
+    #card {
+        width: 95%;
+    }
+
+    .testi p {
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .name {
+        padding-top:6px;
+    }
+
+    .name p {
+        width: 100%;
+        font-size:0.6em;
+    }
+
+    /*-------wrapThree-------------*/
+
+    .ctaThree {
+        flex:100%;
+        text-align: center;
+    }
+
+    #ctaThree {
+        width: 90%;
+    }
+
+    #ctaThree h2 {
+        width: 96%;
+        padding-top: 90px;
+        font-size: 1.6em;
+    }
+
+    #ctaThree p {
+        width: 95%;
+        font-size: 1.1em;
+        padding-bottom:20px;
+    }
+
+    .form {
+        flex:100%;
+    }
+
+    #form {
+        width: 80%;
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom:80px;
+    }
+
+    #form input[type="email"] {
+        padding: 10px 20px 10px 10px;
+    }
+
+    #form input[type="submit"] {
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    /*-----inicia wrapFourth-------*/
+
+    #lggo {
+        padding-left: 0px;
+        margin: 0 auto;
+        width: 30%;
+    }
+
+    #phone {
+        flex:100%;
+        text-align: cente;
+    }
+
+    .containerPhone {
+        width: 50%;
+    }
+
+    #about {
+      flex: 100%;
+    }
+
+    .about {
+        width: 60%;
+        text-align: center;
+    }
+
+    .about p {
+        padding-top: 40px;
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #contact {
+        flex:100%;
+    }
+
+    .contact {
+        width: 60%;
+        text-align: center;
+    }
+
+    .contact p {
+        width: 40%;
+        margin:0 auto;
+        padding-top: 20px;
+        padding-bottom:40px;
+    }
+
+    #redes {
+        flex:100%;
+    }
+
+    .redes {
+      margin-bottom: 70px;
+    }
+
+    .redes svg {
+        width: 50px;
+    }
+
+}
+    
